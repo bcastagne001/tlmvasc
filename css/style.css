@@ -154,3 +154,19 @@ audio {
 	color: red;
 	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
