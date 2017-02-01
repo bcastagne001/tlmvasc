@@ -28,7 +28,7 @@
 <div class="row">
     <div class="col-md-12">
         <div class="section" id="intro">
-            <h1>Tout le Monde veut Avoir son Code !</h1>
+            <h1 class="good">Tout le Monde veut Avoir son Code !</h1>
             <center>Dix questions, trois mauvaises réponses tolérées (pas plus) !</center>
 
             <button go="brief" class="debut">Devenir un conducteur modèle</button>
@@ -470,7 +470,7 @@
             <p>En allumant vos phares, vous constatez que vous êtes à contre-sens. Pris de panique, vous foncez droit
                 dans le mur.</p>
 
-            <button go="resultat">Résultat</button>
+            <button go="resultat" class="resultat">Résultat</button>
         </div>
 
         <div class="section" id="r29">
@@ -478,22 +478,28 @@
             <p>Pas de pot, vous n'avez plus que 2% de batterie et vous devez absolument appeler votre mère pour lui dire
                 de vous acheter du gel douche car vous n'en avez plus.</p>
 
-            <button go="resultat">Résultat</button>
+            <button go="resultat" class="resultat">Résultat</button>
         </div>
 
         <div class="section" id="r30">
             <h1 class="good">Bonne réponse !</h1>
-            <p>Si vous avez fait le choix initial de ne pas allumer vos phares, il faut vous y tenir, un conducteur doit
-                savoir assumer ses choix.</p>
+            <p>Si vous avez fait le choix initial de ne pas allumer vos phares, il faut vous y tenir, un conducteur doit savoir assumer ses choix.</p>
 
-            <button go="resultat">Résultat</button>
+            <button go="resultat" class="resultat">Résultat</button>
         </div>
 
 
         <div class="section" id="resultat">
             <h1 class="errors"></h1>
             <div class="message"></div>
-            <button go="intro">Fin</button>
+            <button go="fin">Fin</button>
+        </div>
+
+
+        <div class="section" id="fin">
+            <h1 class="good">Tout le Monde veut Avoir son Code !</h1>
+            <p>Si vous voulez vous améliorer et devenir incollable, n'hésitez pas à recommencer !.</p>
+            <button go="intro">Recommencer</button>
         </div>
     </div>
 </div>

@@ -60,6 +60,10 @@ $( function() {
         addOneError();
     });
 
+    $('button.resultat').click( function() {
+        playAudio('audio/fin.mp3');
+    });
+
     function findNextQuestionId() {
         return activeSection.nextAll('.section[id*="q"]').first().attr('id');
     }
